@@ -1,0 +1,1 @@
+</main><footer class="footer"><div class="container footer-row"><div><strong>RAYA 21 MOBIL</strong><p>Showroom mobil bekas pilihan.</p></div><div>© <?= date('Y') ?> Raya 21 Mobil · Website proyek RPL</div></div></footer></body></html>

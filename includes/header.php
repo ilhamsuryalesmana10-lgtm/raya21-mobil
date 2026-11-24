@@ -1,0 +1,4 @@
+<?php $page_title = $page_title ?? 'Raya 21 Mobil'; $active = $active ?? ''; ?>
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($page_title) ?> | Raya 21 Mobil</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.php"><span class="brand-mark">R21</span><span>RAYA <b>21 MOBIL</b><small>SHOWROOM MOBIL BEKAS</small></span></a><button class="menu-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button><nav class="nav"><a class="<?= $active==='home'?'active':'' ?>" href="index.php">Beranda</a><a class="<?= $active==='catalog'?'active':'' ?>" href="catalog.php">Katalog Mobil</a><a class="<?= $active==='about'?'active':'' ?>" href="about.php">Tentang Kami</a><a class="admin-link" href="admin/login.php">Admin</a></nav></div></header>
+<main>
